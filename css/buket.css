@@ -1,0 +1,44 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+/*Start Header*/
+
+header {
+    background-color: rgba(76, 39, 85, 0.774);
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+header .col1 {
+    width: 80%;
+}
+header .col1 span{
+    font-family: 'Style Script', cursive;
+    word-spacing: 10px;
+}
+header .col2, header .col3 {
+    width: 10%;
+}
+
+/*End Header*/
+
+/*Start Navbar*/
+.navbar-bg {
+    background-color: rgba(121, 118, 118, 0.219);
+}
+.navbar .container .navbar-nav{
+    margin-left: 360px;
+}
+.navbar .container .navbar-nav li{
+    margin-left: 30px;
+}
+.navbar .container .navbar-nav li:hover{
+    color: crimson;
+}
+
+/*End Navbar*/
