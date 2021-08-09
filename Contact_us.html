@@ -23,7 +23,7 @@
                     <span>BUKET SHOP</span>
                 </div>
                 <div class="col2">
-                    <p>Login</p>
+                    <a href="" class="btn">Login</a>
                 </div>
                 <div class="col3">
                     <p>Register</p>
@@ -55,7 +55,7 @@
                         <a class="nav-link" href="pages/cars-decoration.html">Cars Decoration</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="blog.html">Blog</a>
+                        <a class="nav-link" href="blog.html">Blog</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -69,6 +69,9 @@
                             <li><a class="dropdown-item" href="#"><i class="fas fa-baby"></i>New Baby</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Contact_us.html">Contact us</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -80,15 +83,93 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb p-2">
                     <li class="breadcrumb-item"><a href="index.html" style="text-decoration: none; color: black;">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page" style="color: black;">Blog</li>
+                    <li class="breadcrumb-item active" aria-current="page" style="color: black;">Contact us</li>
                 </ol>
             </nav>
-            <div class="display-4 p-2">Our Blog</div>
-            <h3 class="p-2">Welcome to our blog</h3>
-            <p class="load p-2">Here you will find all new about our shop, including offers,<br> discounts, new products and the locations of our branches</p>
+            <div class="display-4 p-2">Contact us</div>
+            <p class="load p-2">All your opinions, suggestions or complaints are of interest to us<br> Do not hesitate to contact us</p>
         </div>
     </div>
     <!-- End jumbotron -->
+    <!-- Start Contact Us Form -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card my-5">
+                        <div class="card-body">
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">FirstName</label>
+                                    <input type="text" class="form-control" id="inputFirstName">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">LastName</label>
+                                    <input type="text" class="form-control" id="inputLastName">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Phone Number</label>
+                                    <input type="number" class="form-control" id="inputPhoneNumber">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputState" class="form-label">Country</label>
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Choose...</option>
+                                        <option>Jordan</option>
+                                        <option>Eygpt</option>
+                                        <option>Lebanon</option>
+                                        <option>Qater</option>
+                                        <option>Moroco</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputState" class="form-label">City</label>
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Choose...</option>
+                                      <option>Amman</option>
+                                      <option>Zarqa</option>
+                                      <option>Cario</option>
+                                      <option>Beruit</option>
+                                      <option>Doha</option>
+                                      <option>Ribat</option>
+                                    </select>
+                                </div>
+                                <div class="mx-1">
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          Suggestion
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                          Complaint
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                                </div>
+                                <div class="col-12 ">
+                                    <button type="submit" class="btn fs-4">Send</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End Contact Us Form -->
     <!-- Start Footer -->
     <footer class="mt-5 p-3 ">
         <div class="container ">

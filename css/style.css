@@ -21,6 +21,15 @@ header {
     font-weight: 550;
 }
 
+header .btn {
+    color: white;
+    border: none;
+}
+
+header .btn:visited {
+    border: none;
+}
+
 header .col1 {
     width: 80%;
 }
@@ -359,6 +368,17 @@ header .col3 {
 
 
 /* End Recent News */
+
+
+/*Start Modal*/
+
+.modal .submitbtn {
+    background-color: rgba(76, 39, 85, 0.774);
+    color: white;
+}
+
+
+/*End Modal*/
 
 
 /* Start footer */

@@ -1,3 +1,13 @@
 body {
     height: auto;
 }
+
+.card {
+    background-color: rgba(76, 39, 85, 0.26);
+}
+
+.btn {
+    background-color: rgba(76, 39, 85, 0.774);
+    color: white;
+    width: 30%;
+}
