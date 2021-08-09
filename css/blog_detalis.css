@@ -1,0 +1,22 @@
+body {
+    height: auto;
+}
+
+.blog_details .card p {
+    font-size: 25px;
+}
+
+.blog_details .card div {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    background-color: rgba(76, 39, 85, 0.26);
+    border-radius: 10%;
+}
+
+form .btn {
+    background-color: rgba(76, 39, 85, 0.774);
+    color: white;
+}

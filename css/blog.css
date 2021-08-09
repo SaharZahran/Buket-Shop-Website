@@ -1,13 +1,13 @@
 /* Start Jumbotron */
 
 .jumbotron {
-    background-color: rgba(51, 51, 51, 0.171);
+    background-color: rgba(121, 118, 118, 0.219);
     height: auto;
     padding: 30px;
 }
 
 .jumbotron-fluid {
-    background: url('../images/blog-background.jpg');
+    background: url('../images/blog/jumbotron-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
@@ -19,9 +19,12 @@
 
 /* Start Blogs */
 
-.blogs .btn {
-    background-color: rgba(128, 0, 128, 0.514);
+.blogs .jumbotron a {
+    background-color: rgba(76, 39, 85, 0.774);
     color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10%;
 }
 
 .blogs .btn:hover {
